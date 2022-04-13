@@ -6,9 +6,9 @@ package keystore
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/haowang0402/avalanchego/api"
+	"github.com/haowang0402/avalanchego/utils/formatting"
+	"github.com/haowang0402/avalanchego/utils/rpc"
 )
 
 // Interface compliance

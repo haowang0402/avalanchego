@@ -9,9 +9,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/ava-labs/avalanchego/network/throttling"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/haowang0402/avalanchego/network/throttling"
+	"github.com/haowang0402/avalanchego/utils"
+	"github.com/haowang0402/avalanchego/utils/logging"
 )
 
 var _ Dialer = &dialer{}

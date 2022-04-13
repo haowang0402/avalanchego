@@ -13,7 +13,7 @@ import (
 
 	spb "google.golang.org/genproto/googleapis/rpc/status"
 
-	"github.com/ava-labs/avalanchego/api/proto/ghttpproto"
+	"github.com/haowang0402/avalanchego/api/proto/ghttpproto"
 )
 
 func Errorf(code int, tmpl string, args ...interface{}) error {

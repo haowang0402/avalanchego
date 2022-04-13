@@ -10,11 +10,11 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/metric"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/haowang0402/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/message"
+	"github.com/haowang0402/avalanchego/snow"
+	"github.com/haowang0402/avalanchego/utils/metric"
+	"github.com/haowang0402/avalanchego/utils/wrappers"
 )
 
 const (

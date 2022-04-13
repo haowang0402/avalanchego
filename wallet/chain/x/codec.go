@@ -4,13 +4,13 @@
 package x
 
 import (
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/avm"
-	"github.com/ava-labs/avalanchego/vms/nftfx"
-	"github.com/ava-labs/avalanchego/vms/propertyfx"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/haowang0402/avalanchego/codec"
+	"github.com/haowang0402/avalanchego/codec/linearcodec"
+	"github.com/haowang0402/avalanchego/utils/wrappers"
+	"github.com/haowang0402/avalanchego/vms/avm"
+	"github.com/haowang0402/avalanchego/vms/nftfx"
+	"github.com/haowang0402/avalanchego/vms/propertyfx"
+	"github.com/haowang0402/avalanchego/vms/secp256k1fx"
 )
 
 const (

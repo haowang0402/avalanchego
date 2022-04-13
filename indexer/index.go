@@ -9,16 +9,16 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/haowang0402/avalanchego/codec"
+	"github.com/haowang0402/avalanchego/database"
+	"github.com/haowang0402/avalanchego/database/prefixdb"
+	"github.com/haowang0402/avalanchego/database/versiondb"
+	"github.com/haowang0402/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/snow"
+	"github.com/haowang0402/avalanchego/utils/logging"
+	"github.com/haowang0402/avalanchego/utils/math"
+	"github.com/haowang0402/avalanchego/utils/timer/mockable"
+	"github.com/haowang0402/avalanchego/utils/wrappers"
 )
 
 const (

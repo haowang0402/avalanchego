@@ -11,17 +11,17 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/networking/benchlist"
-	"github.com/ava-labs/avalanchego/snow/networking/handler"
-	"github.com/ava-labs/avalanchego/snow/networking/timeout"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/timer"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/haowang0402/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/message"
+	"github.com/haowang0402/avalanchego/snow"
+	"github.com/haowang0402/avalanchego/snow/engine/common"
+	"github.com/haowang0402/avalanchego/snow/networking/benchlist"
+	"github.com/haowang0402/avalanchego/snow/networking/handler"
+	"github.com/haowang0402/avalanchego/snow/networking/timeout"
+	"github.com/haowang0402/avalanchego/snow/validators"
+	"github.com/haowang0402/avalanchego/utils/logging"
+	"github.com/haowang0402/avalanchego/utils/timer"
+	"github.com/haowang0402/avalanchego/version"
 )
 
 func TestShutdown(t *testing.T) {

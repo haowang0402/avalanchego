@@ -10,22 +10,22 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/cache/metercacher"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/linkeddb"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/uptime"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/platformvm/status"
+	"github.com/haowang0402/avalanchego/cache"
+	"github.com/haowang0402/avalanchego/cache/metercacher"
+	"github.com/haowang0402/avalanchego/database"
+	"github.com/haowang0402/avalanchego/database/linkeddb"
+	"github.com/haowang0402/avalanchego/database/prefixdb"
+	"github.com/haowang0402/avalanchego/database/versiondb"
+	"github.com/haowang0402/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/snow/choices"
+	"github.com/haowang0402/avalanchego/snow/uptime"
+	"github.com/haowang0402/avalanchego/utils/constants"
+	"github.com/haowang0402/avalanchego/utils/hashing"
+	"github.com/haowang0402/avalanchego/utils/wrappers"
+	"github.com/haowang0402/avalanchego/vms/components/avax"
+	"github.com/haowang0402/avalanchego/vms/platformvm/status"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/haowang0402/avalanchego/utils/math"
 )
 
 var (

@@ -4,9 +4,9 @@
 package proposervm
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/vms/proposervm/indexer"
+	"github.com/haowang0402/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/snow/consensus/snowman"
+	"github.com/haowang0402/avalanchego/vms/proposervm/indexer"
 )
 
 var _ indexer.BlockServer = &VM{}

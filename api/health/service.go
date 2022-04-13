@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/haowang0402/avalanchego/utils/logging"
 )
 
 type Service struct {

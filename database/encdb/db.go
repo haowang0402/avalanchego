@@ -10,12 +10,12 @@ import (
 
 	"golang.org/x/crypto/chacha20poly1305"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/nodb"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/haowang0402/avalanchego/codec"
+	"github.com/haowang0402/avalanchego/codec/linearcodec"
+	"github.com/haowang0402/avalanchego/database"
+	"github.com/haowang0402/avalanchego/database/nodb"
+	"github.com/haowang0402/avalanchego/utils"
+	"github.com/haowang0402/avalanchego/utils/hashing"
 )
 
 const (

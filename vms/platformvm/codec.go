@@ -6,11 +6,11 @@ package platformvm
 import (
 	"math"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/codec/reflectcodec"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/haowang0402/avalanchego/codec"
+	"github.com/haowang0402/avalanchego/codec/linearcodec"
+	"github.com/haowang0402/avalanchego/codec/reflectcodec"
+	"github.com/haowang0402/avalanchego/utils/wrappers"
+	"github.com/haowang0402/avalanchego/vms/secp256k1fx"
 )
 
 const (

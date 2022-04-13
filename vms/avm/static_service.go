@@ -10,19 +10,19 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/codec/reflectcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/nftfx"
-	"github.com/ava-labs/avalanchego/vms/propertyfx"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/haowang0402/avalanchego/codec"
+	"github.com/haowang0402/avalanchego/codec/linearcodec"
+	"github.com/haowang0402/avalanchego/codec/reflectcodec"
+	"github.com/haowang0402/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/utils/formatting"
+	"github.com/haowang0402/avalanchego/utils/wrappers"
+	"github.com/haowang0402/avalanchego/vms/components/avax"
+	"github.com/haowang0402/avalanchego/vms/components/verify"
+	"github.com/haowang0402/avalanchego/vms/nftfx"
+	"github.com/haowang0402/avalanchego/vms/propertyfx"
+	"github.com/haowang0402/avalanchego/vms/secp256k1fx"
 
-	cjson "github.com/ava-labs/avalanchego/utils/json"
+	cjson "github.com/haowang0402/avalanchego/utils/json"
 )
 
 var (

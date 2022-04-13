@@ -8,7 +8,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/ava-labs/avalanchego/api/proto/gwriterproto"
+	"github.com/haowang0402/avalanchego/api/proto/gwriterproto"
 )
 
 var _ io.Writer = &Client{}

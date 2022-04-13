@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/haowang0402/avalanchego/utils/units"
 	"github.com/stretchr/testify/assert"
 )
 

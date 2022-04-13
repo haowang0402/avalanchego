@@ -12,18 +12,18 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/database/manager"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/version"
-	"github.com/ava-labs/avalanchego/vms/proposervm/proposer"
+	"github.com/haowang0402/avalanchego/database/manager"
+	"github.com/haowang0402/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/snow"
+	"github.com/haowang0402/avalanchego/snow/choices"
+	"github.com/haowang0402/avalanchego/snow/consensus/snowman"
+	"github.com/haowang0402/avalanchego/snow/engine/common"
+	"github.com/haowang0402/avalanchego/snow/engine/snowman/block"
+	"github.com/haowang0402/avalanchego/snow/validators"
+	"github.com/haowang0402/avalanchego/utils/hashing"
+	"github.com/haowang0402/avalanchego/utils/timer/mockable"
+	"github.com/haowang0402/avalanchego/version"
+	"github.com/haowang0402/avalanchego/vms/proposervm/proposer"
 )
 
 func TestCoreVMNotRemote(t *testing.T) {

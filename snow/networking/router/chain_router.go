@@ -13,17 +13,17 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/snow/networking/handler"
-	"github.com/ava-labs/avalanchego/snow/networking/timeout"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/linkedhashmap"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/haowang0402/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/message"
+	"github.com/haowang0402/avalanchego/snow/networking/handler"
+	"github.com/haowang0402/avalanchego/snow/networking/timeout"
+	"github.com/haowang0402/avalanchego/utils/constants"
+	"github.com/haowang0402/avalanchego/utils/hashing"
+	"github.com/haowang0402/avalanchego/utils/linkedhashmap"
+	"github.com/haowang0402/avalanchego/utils/logging"
+	"github.com/haowang0402/avalanchego/utils/timer/mockable"
+	"github.com/haowang0402/avalanchego/utils/wrappers"
+	"github.com/haowang0402/avalanchego/version"
 )
 
 var (

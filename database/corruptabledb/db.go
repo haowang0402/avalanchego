@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/database"
+	"github.com/haowang0402/avalanchego/database"
 )
 
 var (

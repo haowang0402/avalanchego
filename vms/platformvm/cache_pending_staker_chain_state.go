@@ -9,8 +9,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/database"
+	"github.com/haowang0402/avalanchego/ids"
 )
 
 var _ pendingStakerChainState = &pendingStakerChainStateImpl{}

@@ -15,10 +15,10 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/ava-labs/avalanchego/api/proto/ghttpproto"
-	"github.com/ava-labs/avalanchego/api/proto/gresponsewriterproto"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gresponsewriter"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/haowang0402/avalanchego/api/proto/ghttpproto"
+	"github.com/haowang0402/avalanchego/api/proto/gresponsewriterproto"
+	"github.com/haowang0402/avalanchego/vms/rpcchainvm/ghttp/gresponsewriter"
+	"github.com/haowang0402/avalanchego/vms/rpcchainvm/grpcutils"
 )
 
 var (

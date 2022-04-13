@@ -4,12 +4,12 @@
 package state
 
 import (
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/haowang0402/avalanchego/cache"
+	"github.com/haowang0402/avalanchego/database"
+	"github.com/haowang0402/avalanchego/database/prefixdb"
+	"github.com/haowang0402/avalanchego/database/versiondb"
+	"github.com/haowang0402/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/utils/wrappers"
 )
 
 const (

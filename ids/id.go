@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/haowang0402/avalanchego/utils"
+	"github.com/haowang0402/avalanchego/utils/formatting"
+	"github.com/haowang0402/avalanchego/utils/hashing"
+	"github.com/haowang0402/avalanchego/utils/wrappers"
 )
 
 const (

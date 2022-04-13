@@ -6,17 +6,17 @@ package primary
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/api/info"
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/vms/avm"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/platformvm"
-	"github.com/ava-labs/avalanchego/wallet/chain/p"
-	"github.com/ava-labs/avalanchego/wallet/chain/x"
+	"github.com/haowang0402/avalanchego/api"
+	"github.com/haowang0402/avalanchego/api/info"
+	"github.com/haowang0402/avalanchego/codec"
+	"github.com/haowang0402/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/utils/constants"
+	"github.com/haowang0402/avalanchego/utils/formatting"
+	"github.com/haowang0402/avalanchego/vms/avm"
+	"github.com/haowang0402/avalanchego/vms/components/avax"
+	"github.com/haowang0402/avalanchego/vms/platformvm"
+	"github.com/haowang0402/avalanchego/wallet/chain/p"
+	"github.com/haowang0402/avalanchego/wallet/chain/x"
 )
 
 const (

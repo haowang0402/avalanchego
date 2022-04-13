@@ -4,10 +4,10 @@
 package bootstrap
 
 import (
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/engine/common/queue"
-	"github.com/ava-labs/avalanchego/snow/engine/common/tracker"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
+	"github.com/haowang0402/avalanchego/snow/engine/common"
+	"github.com/haowang0402/avalanchego/snow/engine/common/queue"
+	"github.com/haowang0402/avalanchego/snow/engine/common/tracker"
+	"github.com/haowang0402/avalanchego/snow/engine/snowman/block"
 )
 
 type Config struct {

@@ -15,7 +15,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/ava-labs/avalanchego/api/proto/vmproto"
+	"github.com/haowang0402/avalanchego/api/proto/vmproto"
 )
 
 var (

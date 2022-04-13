@@ -14,8 +14,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/api/proto/galiasreaderproto"
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/api/proto/galiasreaderproto"
+	"github.com/haowang0402/avalanchego/ids"
 )
 
 const (

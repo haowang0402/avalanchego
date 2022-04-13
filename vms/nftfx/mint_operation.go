@@ -6,11 +6,11 @@ package nftfx
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/vms/types"
+	"github.com/haowang0402/avalanchego/vms/types"
 
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/haowang0402/avalanchego/snow"
+	"github.com/haowang0402/avalanchego/vms/components/verify"
+	"github.com/haowang0402/avalanchego/vms/secp256k1fx"
 )
 
 var errNilMintOperation = errors.New("nil mint operation")

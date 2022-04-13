@@ -6,8 +6,8 @@ package scheduler
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/haowang0402/avalanchego/snow/engine/common"
+	"github.com/haowang0402/avalanchego/utils/logging"
 )
 
 type Scheduler interface {

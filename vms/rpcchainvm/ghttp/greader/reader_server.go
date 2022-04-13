@@ -7,7 +7,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/ava-labs/avalanchego/api/proto/greaderproto"
+	"github.com/haowang0402/avalanchego/api/proto/greaderproto"
 )
 
 var _ greaderproto.ReaderServer = &Server{}

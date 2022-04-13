@@ -7,10 +7,10 @@ import (
 	"container/list"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/keystore"
+	"github.com/haowang0402/avalanchego/api"
+	"github.com/haowang0402/avalanchego/chains/atomic"
+	"github.com/haowang0402/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/vms/components/keystore"
 )
 
 // Returns:

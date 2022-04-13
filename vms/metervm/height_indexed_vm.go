@@ -4,8 +4,8 @@
 package metervm
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
+	"github.com/haowang0402/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/snow/engine/snowman/block"
 )
 
 var _ block.HeightIndexedChainVM = &blockVM{}

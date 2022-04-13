@@ -4,7 +4,7 @@
 package events
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/ids"
 )
 
 var offset = uint64(0)

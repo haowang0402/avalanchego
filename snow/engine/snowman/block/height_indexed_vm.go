@@ -5,7 +5,7 @@ package block
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/ids"
 )
 
 var (

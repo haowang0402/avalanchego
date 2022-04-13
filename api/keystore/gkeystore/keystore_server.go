@@ -10,13 +10,13 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/ava-labs/avalanchego/api/keystore"
-	"github.com/ava-labs/avalanchego/api/proto/gkeystoreproto"
-	"github.com/ava-labs/avalanchego/api/proto/rpcdbproto"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/rpcdb"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/haowang0402/avalanchego/api/keystore"
+	"github.com/haowang0402/avalanchego/api/proto/gkeystoreproto"
+	"github.com/haowang0402/avalanchego/api/proto/rpcdbproto"
+	"github.com/haowang0402/avalanchego/database"
+	"github.com/haowang0402/avalanchego/database/rpcdb"
+	"github.com/haowang0402/avalanchego/utils/math"
+	"github.com/haowang0402/avalanchego/vms/rpcchainvm/grpcutils"
 )
 
 var _ gkeystoreproto.KeystoreServer = &Server{}

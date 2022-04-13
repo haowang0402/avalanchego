@@ -26,13 +26,13 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/ava-labs/avalanchego/api/proto/ghttpproto"
-	"github.com/ava-labs/avalanchego/api/proto/vmproto"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/haowang0402/avalanchego/api/proto/ghttpproto"
+	"github.com/haowang0402/avalanchego/api/proto/vmproto"
+	"github.com/haowang0402/avalanchego/snow/engine/common"
+	"github.com/haowang0402/avalanchego/vms/rpcchainvm/ghttp"
+	"github.com/haowang0402/avalanchego/vms/rpcchainvm/grpcutils"
 
-	cjson "github.com/ava-labs/avalanchego/utils/json"
+	cjson "github.com/haowang0402/avalanchego/utils/json"
 )
 
 // Test_VMCreateHandlers tests the Handle and HandleSimple RPCs by creating a plugin and

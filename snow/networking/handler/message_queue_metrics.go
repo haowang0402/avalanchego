@@ -8,8 +8,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/haowang0402/avalanchego/message"
+	"github.com/haowang0402/avalanchego/utils/wrappers"
 )
 
 type messageQueueMetrics struct {

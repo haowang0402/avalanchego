@@ -6,8 +6,8 @@ package nftfx
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/haowang0402/avalanchego/vms/components/verify"
+	"github.com/haowang0402/avalanchego/vms/secp256k1fx"
 )
 
 func TestTransferOperationVerifyNil(t *testing.T) {

@@ -6,7 +6,7 @@ package version
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/haowang0402/avalanchego/utils/constants"
 )
 
 // These are globals that describe network upgrades and node versions

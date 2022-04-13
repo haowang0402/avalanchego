@@ -3,7 +3,7 @@
 
 package avax
 
-import "github.com/ava-labs/avalanchego/snow"
+import "github.com/haowang0402/avalanchego/snow"
 
 type TestVerifiable struct{ Err error }
 

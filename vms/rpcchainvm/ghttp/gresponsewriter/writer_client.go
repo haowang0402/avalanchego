@@ -13,13 +13,13 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/ava-labs/avalanchego/api/proto/gconnproto"
-	"github.com/ava-labs/avalanchego/api/proto/greaderproto"
-	"github.com/ava-labs/avalanchego/api/proto/gresponsewriterproto"
-	"github.com/ava-labs/avalanchego/api/proto/gwriterproto"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gconn"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/greader"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gwriter"
+	"github.com/haowang0402/avalanchego/api/proto/gconnproto"
+	"github.com/haowang0402/avalanchego/api/proto/greaderproto"
+	"github.com/haowang0402/avalanchego/api/proto/gresponsewriterproto"
+	"github.com/haowang0402/avalanchego/api/proto/gwriterproto"
+	"github.com/haowang0402/avalanchego/vms/rpcchainvm/ghttp/gconn"
+	"github.com/haowang0402/avalanchego/vms/rpcchainvm/ghttp/greader"
+	"github.com/haowang0402/avalanchego/vms/rpcchainvm/ghttp/gwriter"
 )
 
 var (

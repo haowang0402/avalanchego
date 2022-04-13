@@ -1,5 +1,5 @@
 version: v1
-name: buf.build/ava-labs/avalanchego
+name: buf.build/haowang0402/avalanchego
 breaking:
   use:
     - FILE

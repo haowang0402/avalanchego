@@ -6,9 +6,9 @@ package appsender
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/api/proto/appsenderproto"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
+	"github.com/haowang0402/avalanchego/api/proto/appsenderproto"
+	"github.com/haowang0402/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/snow/engine/common"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 

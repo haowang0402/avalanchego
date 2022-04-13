@@ -4,7 +4,7 @@
 package avm
 
 import (
-	"github.com/ava-labs/avalanchego/snow"
+	"github.com/haowang0402/avalanchego/snow"
 )
 
 type Factory struct {

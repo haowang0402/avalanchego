@@ -7,10 +7,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/api/proto/gsharedmemoryproto"
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/haowang0402/avalanchego/api/proto/gsharedmemoryproto"
+	"github.com/haowang0402/avalanchego/chains/atomic"
+	"github.com/haowang0402/avalanchego/database"
+	"github.com/haowang0402/avalanchego/ids"
 )
 
 var _ gsharedmemoryproto.SharedMemoryServer = &Server{}

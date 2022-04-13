@@ -10,8 +10,8 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/ava-labs/avalanchego/api/proto/vmproto"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
+	"github.com/haowang0402/avalanchego/api/proto/vmproto"
+	"github.com/haowang0402/avalanchego/snow/engine/snowman/block"
 )
 
 var (

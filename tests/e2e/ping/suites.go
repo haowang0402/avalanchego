@@ -12,7 +12,7 @@ import (
 
 	"github.com/onsi/gomega"
 
-	"github.com/ava-labs/avalanchego/tests/e2e"
+	"github.com/haowang0402/avalanchego/tests/e2e"
 )
 
 var _ = e2e.DescribeLocal("[Ping]", func() {
